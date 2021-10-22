@@ -53,7 +53,7 @@
             echo '<div class = "container mb-3">Mã truy cập bài thi<input type="text" name = "exam-code" class = "form-control" value="'.$row['exam_code'].'"></div>';
           }
       }
-        echo '<div class = "container d-grid gap-2 d-md-flex justify-content-md-end">
+        echo '<div class = "container d-grid gap-2 d-md-flex justify-content-md-end mb-3">
                         <a href="change.php?id='.$id.'" class = "btn btn-warning" method = "GET">Sửa bài thi</a>
                         <a href="delete.php?id='.$id.'" class = "btn btn-danger" method = "GET">Xóa bài thi</a>
                     </div>';

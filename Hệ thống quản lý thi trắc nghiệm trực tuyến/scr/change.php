@@ -14,8 +14,9 @@
         header ('Location: error.php');
     }
 
-    $sql = 'UPDATE tb_exam SET exam_title = "'.$title.'",exam_datetime="'$examdate'",duration="'$duration'",total_question="'$totalquestion'",
-    marks_per_right_answer="'$answer'",created_on"'=$date_created'",status="'$status'",exam_code="'$exam_code'") WHERE id = "'$id'"';
+    $sql = 'UPDATE tb_exam 
+    SET exam_title = "'.$title.'",exam_datetime = "'.$examdate.'",duration="'.$duration.'",total_question="'.$totalquestion.'",
+    marks_per_right_answer="'.$answer.'",created_on="'.$date_created.'",status="'.$status.'",exam_code="'.$exam_code.'") WHERE id = "'.$id.'"';
     
     echo $sql;
     // $result = mysqli_query($conn, $sql);
