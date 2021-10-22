@@ -11,7 +11,7 @@
     <title>Thêm bài thi</title>
   </head>
   <body>
-      <h1><center>Thêm bài thi</center></h1>
+      <h1 class = "mt-3"><center>Thêm bài thi</center></h1>
 
       <form action="addexam-act.php" method = "POST" >
             <div class = "container mb-3">

@@ -11,7 +11,7 @@
     <title>Danh sách</title>
   </head>
   <body>
-    <h1><center>Danh sách bài thi</center></h1>
+    <h1 class = "mt-3"><center>Danh sách bài thi</center></h1>
 
     <div class = "container">
         <a href="addexam.php" class = "btn btn-success">Thêm bài thi</a>
@@ -26,6 +26,7 @@
         <th scope="col">Ngày thi</th>
         <th scope="col">Trạng thái</th>
         <th scope="col">Mã bài thi</th>
+        <th scope="col"></th>
         </tr>
     </thead>
     <tbody>

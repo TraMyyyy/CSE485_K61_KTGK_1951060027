@@ -11,7 +11,7 @@
     <title>Chi tiết</title>
   </head>
   <body>
-    <h1><center>CHI TIẾT BÀI THI</center></h1>
+    <h1 class = "mt-3"><center>Chi tiết bài thi</center></h1>
     <?php
       $id = $_GET['id'];
       $conn = mysqli_connect("localhost","root","12345","exam");
