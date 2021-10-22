@@ -17,18 +17,15 @@
         <a href="addexam.php" class = "btn btn-success">Thêm bài thi</a>
     </div>
 
+    <div class = "container">
     <table class="table">
     <thead>
         <tr>
         <th scope="col">ID</th>
         <th scope="col">Tên bài thi</th>
         <th scope="col">Ngày thi</th>
-        <th scope="col">Thời gian làm bài</th>
-        <th scope="col">Số câu hỏi</th>
-        <th scope="col">Điểm cho mỗi câu trả lời đúng</th>
-        <th scope="col">Ngày tạo bài thi</th>
         <th scope="col">Trạng thái</th>
-        <th scope="col">Thao tác</th>
+        <th scope="col">Mã bài thi</th>
         </tr>
     </thead>
     <tbody>
@@ -47,10 +44,6 @@
                 echo  '<th scope="row">'.$row['id'].'</th>';
                 echo  '<td>'.$row['exam_title'].'</td>';
                 echo  '<td>'.$row['exam_datetime'].'</td>';
-                echo  '<td>'.$row['duration'].'</td>';
-                echo  '<td>'.$row['total_question'].'</td>';
-                echo  '<td>'.$row['marks_per_right_answer'].'</td>';
-                echo  '<td>'.$row['created_on'].'</td>';
                 echo  '<td>'.$row['status'].'</td>';
                 echo  '<td>'.$row['exam_code'].'</td>';
                 echo   '<td><a href="details.php?id='.$row["id"].'" class = "btn btn-warning" method = "GET">Chi tiết</a></td>';
@@ -59,7 +52,7 @@
             }
         ?>
     </tbody>
-    </table>
+    </table></div>
     <!-- Kết thúc danh sách nhân viên -->
 
     <!-- Optional JavaScript; choose one of the two! -->

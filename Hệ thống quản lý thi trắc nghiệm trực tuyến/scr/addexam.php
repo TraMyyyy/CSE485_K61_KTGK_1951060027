@@ -35,10 +35,10 @@
             <div class = "container mb-3">
                 Trạng thái 
                 <select name="status" id="">
-                    <option value="penđing">Pending</option>
-                    <option value="created">Creadted</option>
-                    <option value="started">Started</option>
-                    <option value="complete">Complete</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Created">Creadted</option>
+                    <option value="Started">Started</option>
+                    <option value="Complete">Complete</option>
                 </select>
             </div>
             <div class = "container mb-3">
